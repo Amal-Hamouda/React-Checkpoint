@@ -1,27 +1,15 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  
+  /* background-image: url(https://images.pexels.com/photos/160107/pexels-photo-160107.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940); */
+    background: url(https://images.pexels.com/photos/160107/pexels-photo-160107.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) ;
+    background-position: center;
+    background-size: cover;
+    background-attachment:fixed;
+    padding: 0;
+    margin: 0;
+    height:750px ;
 }
 
 .App-link {
@@ -34,5 +22,48 @@
   }
   to {
     transform: rotate(360deg);
-  }
+  } }
+
+.Form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.Formplaceboxes{
+  width: 400px;
+  height: 40px;
+  background-color: rgba(240, 248, 255, 0.808);
+  margin-bottom: 20px;
+  margin-top: 20px;
+
+
+}
+.Formlabel{
+  color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-size: 15px;
+  font-style: italic;
+  font-weight: bold;
+}
+h1{
+  font-size: 50px;
+  font-weight:normal;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(255, 255, 255);
+  margin-top: 50px;
+}
+#submit-btn{
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: normal;
+  background-color: blueviolet;
+  border: none;
+  margin-bottom: 50px;
 }
